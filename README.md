@@ -46,6 +46,3 @@ No build tools or setup required unless mentioned inside a project folder.
 This repository will continue to grow as I progress through the roadmap and
 add projects related to CSS, JavaScript, and other frontend topics.
 
-Project URL: https://roadmap.sh/frontend/projects/single-page-cv
-
-Repo URL: https://github.com/Mohamed-asmaan/roadmap.sh-tasks/tree/main/Frontend-engineer-roadmap/html-projects/single-page-cv
