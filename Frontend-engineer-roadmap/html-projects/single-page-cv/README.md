@@ -1,17 +1,24 @@
 # Single-Page CV (HTML Only)
-repo link: https://github.com/Mohamed-asmaan/roadmap.sh-tasks/tree/main/Frontend-engineer-roadmap/html-projects/single-page-cv
 
-This project is part of the **Frontend Engineer Roadmap** and focuses on building a **single-page CV using only HTML**.
+Project URL: https://roadmap.sh/frontend/projects/single-page-cv
 
-The goal is to practice writing **clean, semantic HTML** while structuring real-world content such as education, skills, and work experience. Styling is intentionally kept minimal and will be addressed in a later project.
+Repo URL: https://github.com/Mohamed-asmaan/roadmap.sh-tasks/tree/main/Frontend-engineer-roadmap/html-projects/single-page-cv
 
 ---
 
-## 📌 Project Objective
+## 📌 Overview
 
-- Create a **single-page Curriculum Vitae (CV)** using only HTML
-- Focus on **semantic structure**, not advanced styling
-- Prepare the document for future CSS-based styling
+This project is part of the **Frontend Engineer Roadmap** and focuses on building a **single-page Curriculum Vitae (CV) using only HTML**.
+
+The objective is to practice writing **clean, semantic HTML** while structuring real-world content such as education, skills, and work experience. Styling is intentionally kept minimal and will be addressed in a later project.
+
+---
+
+## 🎯 Project Objective
+
+- Create a **single-page CV** using only HTML  
+- Focus on **semantic structure**, not advanced styling  
+- Prepare the document for **future CSS-based styling**
 
 ---
 
@@ -19,32 +26,39 @@ The goal is to practice writing **clean, semantic HTML** while structuring real-
 
 This solution fulfills all the required criteria:
 
-- ✅ **Semantic HTML**
-  - Proper use of elements like `<main>`, `<section>`, `<header>`, `<footer>`, `<address>`, headings, lists, and paragraphs
+### ✅ Semantic HTML
+- Proper use of elements such as:
+  - `<main>`
+  - `<section>`
+  - `<footer>`
+  - `<address>`
+  - Headings, lists, and paragraphs
 
-- ✅ **Single-page layout**
-  - Sections for:
-    - Personal information
-    - Skills
-    - Education
-    - Work experience
-    - Online profiles
+### ✅ Single-Page Layout
+Includes clearly defined sections for:
+- Personal information
+- Skills
+- Education
+- Work experience
+- Online profiles
 
-- ✅ **SEO Meta Tags**
-  - Includes essential meta tags such as `description` and `viewport`
+### ✅ SEO Meta Tags
+- Includes essential meta tags such as:
+  - `title`
+  - `description`
+  - `viewport`
 
-- ✅ **Open Graph (OG) Tags**
-  - Added OG tags for better social media link previews
+### ✅ Open Graph (OG) Tags
+- Added OG tags for improved social media link previews
 
-- ✅ **Favicon**
-  - Favicon linked in the `<head>` section
+### ✅ Favicon
+- Favicon linked in the `<head>` section
 
 ---
 
 ## 📂 Project Structure
 
 single-page-cv/
-│
 ├── index.html
 ├── favicon.ico
 ├── open-graph.webp
@@ -57,22 +71,14 @@ single-page-cv/
 
 - No external CSS or JavaScript is used
 - Inline styles were temporarily used only for visual clarity during HTML practice
-- The document remains **fully readable and meaningful even without CSS**
-- This project focuses purely on **HTML fundamentals and document structure**
+- The document remains fully readable and meaningful even without CSS
+- This project focuses purely on **HTML fundamentals and semantic structure**
 
----
-
-## 🚀 Next Steps
-
-In the next phase, this CV can be enhanced by:
-- Moving styles into an external CSS file
-- Improving layout and typography
-- Adding responsive design
 
 ---
 
 ## 🔗 Reference
 
-This project is based on the **Single-Page CV** task from the Frontend Engineer Roadmap.
+This project is based on the **Single-Page CV** task from the Frontend Engineer Roadmap:
 
-## 🔗 Project Link: [https://roadmap.sh/frontend/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv)
+https://roadmap.sh/frontend/projects/single-page-cv
