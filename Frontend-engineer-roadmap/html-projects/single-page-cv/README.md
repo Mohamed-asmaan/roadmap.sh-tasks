@@ -1,6 +1,6 @@
 # Single-Page CV (HTML Only)
 
-Project URL: https://roadmap.sh/projects/single-page-cv
+Project URL: https://roadmap.sh/frontend/projects/single-page-cv
 
 Repo URL: https://github.com/Mohamed-asmaan/roadmap.sh-tasks/tree/main/Frontend-engineer-roadmap/html-projects/single-page-cv
 
