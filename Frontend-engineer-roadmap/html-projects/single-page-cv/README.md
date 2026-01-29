@@ -73,5 +73,7 @@ In the next phase, this CV can be enhanced by:
 
 ## 🔗 Reference
 
-This project is based on the **Single-Page CV** task from the Frontend Engineer Roadmap:
+This project is based on the **Single-Page CV** task from the Frontend Engineer Roadmap.
+
+## 🔗 Project Link
 https://roadmap.sh/frontend/projects/single-page-cv
