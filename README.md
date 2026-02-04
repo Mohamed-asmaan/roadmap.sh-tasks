@@ -38,10 +38,12 @@ No build tools or setup required unless mentioned inside a project folder.
 
 ## 🔗 References
 
-* Frontend Engineer Roadmap: [https://roadmap.sh/frontend](https://roadmap.sh/frontend)
-* Project ideas and tasks: [https://roadmap.sh](https://roadmap.sh)
+* Frontend Engineer Roadmap: https://roadmap.sh/frontend
+* Project ideas and tasks:   https://roadmap.sh
+* project url: https://roadmap.sh/projects/single-page-cv
 
 ## 📌 Notes
 
 This repository will continue to grow as I progress through the roadmap and
 add projects related to CSS, JavaScript, and other frontend topics.
+
