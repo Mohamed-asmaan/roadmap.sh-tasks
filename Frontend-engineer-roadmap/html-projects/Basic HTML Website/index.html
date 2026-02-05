@@ -2,110 +2,130 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic HTML Website</title>
+
+    <meta name="description" content="A simple multi-page HTML-only website demonstrating semantic structure, navigation, and basic SEO without styling.">
+    <link rel="icon" href="Portfolio-logo/favicon.ico">
+    <meta property="og:title" content="Asmaan – Frontend Developer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mohamed-asmaan.github.io/" />
+    <meta property="og:image" content="https://mohamed-asmaan.github.io/Portfolio-logo/open-graph.webp">
+    <meta property="og:description"
+        content="Frontend Engineer with experience building scalable, user-centric web applications." />
 </head>
 
 <body>
-    <div style="border: 1px solid black;">
+  
+ <header style="display: flex; justify-content: space-between; padding: 20px; border-width: 1px 1px 0px 1px; border-style: solid; border-color: black; ">
 
-    <header>
-            
-            <nav style="display: flex; justify-content: space-between; padding: 20px;">
-            <div>
-                <a href="home" style="display: flex; align-items: center; gap: 10px;">
-                    <img src="\Portfolio-logo\open-graph.webp" alt="Portfolio-logo" style="width: 50px;">
-                    Moahmed Asmaan
-                </a>
-            </div>
-            <div>
-                <ul style="list-style: none; display: flex; gap: 5px">
-                    <li><a href="" style="color: black; text-decoration: none;">Home</a></li>
-                    <li>/</li>
-                    <li><a href="" style="color: black; text-decoration: none;">Projects</a></li>
-                    <li>/</li>
-                    <li><a href="" style="color: black; text-decoration: none;">Articles</a></li>
-                    <li>/</li>
-                    <li><a href="" style="color: black; text-decoration: none;">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+    <a href="index.html" style="display: flex; align-items: center; gap: 10px; font-style: normal; color: black; text-decoration: none ;">
+      <img src="\Portfolio-logo\open-graph.webp" alt="Logo" style="height: 50px;">
+      <p><strong>Asmaan</strong></p>
+    </a>
+    <nav style="display: flex; align-items: center;">
+      <ul style="list-style: none; display: flex; gap: 10px; align-items: center; margin: 0px; padding: 0px; ">
+        <li> <a href="index.html">Home</a></li>
+        <li>/</li>
+        <li> <a href="projects.html">Projects</a></li>
+        <li>/</li>
+        <li> <a href="articles.html">Articles</a></li>
+        <li>/</li>
+        <li> <a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    </header>
+  <section style="display: flex; flex-direction: column; align-items: center; ; padding: 100px; border-width: 0px 1px 0px 1px; border-style: solid; border-color: black;  ">
+    <h1 style="margin: 0px 0px 20px 0px;">Frontend Developer</h1>
+    <p style="margin: 0;">html only with proper layout, no styling</p>
+  </section>
 
-    
+  <main>
 
-    <section>
-
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; padding: 40px 0px 40px 0px;">
-            <h1 style="margin: 0px;">Frontend Developer</h1>
-            <p style="margin: 0px;" >html only with proper layout, no styling</p>
-            </div>
-
+    <section style="display: flex;">
+      <section style="flex: 1; border: 1px solid black ;">
+        <div style=" border-width: 0px; border-style: solid; border-color: black; padding: 20px; ">
+          <h2 style="margin: 0px; padding: 0px;">Projects</h2>
+        </div>
+        <ul style="list-style: none; padding: 0px; margin: 0px;">
+          <li style=" border-width: 0px 0px 1px 0px; border-style: solid; border-color: black; padding: 20px;"><strong style="font-weight: 400;">Html only projects</strong></li>
+          <li>
+              <ul style="list-style: none; padding: 0px; margin: 0px">
+                <li  style=" border-width: 0px 0px 1px 0px; border-style: solid; border-color: black; padding: 20px; ">Calculator</li>
+                <li  style=" border-width: 0px 0px 1px 0px; border-style: solid; border-color: black; padding: 20px; ">Quiz App</li>
+                <li  style=" border-width: 0px 0px 1px 0px; border-style: solid; border-color: black; padding: 20px; ">Countdown Timer</li>
+                <li  style=" border-width: 0px; border-style: solid; border-color: black; padding: 20px; ">Product Upcoming Page</li>
+              </ul>
+          </li>
+        </ul>
+      </section>
+      <section style="flex: 1; border-width: 1px 0px 1px 0px; border-style: solid; border-color: black ;">
+        <div style=" padding: 20px; ">
+          <h2 style="margin: 0px; padding: 0px;">Work Experience</h2>
+        </div>
+        <article style=" border-width: 0px 0px 1px 0px; border-style: solid; border-color: black; padding: 20px;" >
+          <h3 style="margin: 0px; padding: 0px;" >roadmap.sh</h3>
+          <p>Solved all my frontend projects</p>
+          <a href="https://roadmap.sh/u/asmaan">View my profile</a>
+        </article>
+        <article style="padding: 20px;">
+          <h3 style="margin: 0px; padding: 0px;" >OpenSource Work</h3>
+          <p> Contributed to 50 opensource projects Made my own projects with 200 GitHub Stars.</p>
+          <a href="https://github.com/Mohamed-asmaan">Visit my GitHub Profile</a>
+        </article>
+      </section>
+      <section style="flex: 1; border-width: 1px 1px 1px 1px; border-style: solid; border-color: black ; padding: 20px;">
+        <div >
+          <h2 style="margin: 0px; padding: 0px;" >Education</h2>
+          <p>Graduated with 3.76 out of 4 CGPA.<br> Won Acme Hackathon.<br>Organized 30 sessions.</p>
+        </div>
+        <article>
+          <h3 style="margin: 0px; padding: 0px;" >Courses I took</h3>
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discrete Mathematics</li>
+          </ul>
+        </article>
+      </section>
+    </section>
+    <section style="display: flex; flex-direction: column; align-items: center; padding: 60px;  border-width: 0px 1px 0px 1px; border-style: solid; border-color: black ; ">
+      <div style="display: flex; flex-direction: column; gap: 40px">
+          <h2 style="margin: 0px; padding: 0px;" >Reviews from my Teachers</h2>
+      <div style="display: flex; gap: 40px;">
+        <article style="border: 1px solid black; border-radius: 20px; padding: 20px;">
+          <p><strong style="font-weight: 500;">John doe was a brilliant student; always stood out with his assignments.</strong></p>
+          <p style="opacity:0.6;">Jane Doe Assistant Professor</p>
+        </article>
+        <article style="border: 1px solid black; border-radius: 20px; padding: 20px;">
+          <p><strong style="font-weight: 500;" >John doe was a brilliant student; always stood out with his assignments.</strong></p>
+          <p style="opacity:0.6;">Jane Doe Assistant Professor</p>
+        </article>
+        <article style="border: 1px solid black; border-radius: 20px; padding: 20px;" >
+          <p><strong style="font-weight: 500;" >John doe was a brilliant student; always stood out with his assignments.</strong></p>
+          <p style="opacity:0.6;">Jane Doe Assistant Professor</p>
+        </article>
+      </div>
+    </div>
     </section>
 
+  </main>
 
-<main style="display:flex; border-top:1px solid #000; border-bottom:1px solid #000;">
+  <footer style="padding: 80px; display: flex; justify-content: center; border-width: 0px 1px 1px 1px; border-style: solid; border-color: black ;">
+    © all rights reserved 2026
 
-  <!-- Projects -->
-  <aside style="width:25%; border-right:1px solid #000; padding:16px;">
-    <h2>Projects</h2>
-
-    <p>HTML Only Portfolio</p>
-    <p>Calculator</p>
-    <p>Quiz App</p>
-    <p>Countdown Timer</p>
-    <p>Product Upcoming Page</p>
-  </aside>
-
-  <!-- Work Experience -->
-  <section style="width:40%; border-right:1px solid #000; padding:16px;">
-    <h2>Work Experience</h2>
-
-    <article>
-      <h3>roadmap.sh</h3>
-      <p>Solved all the frontend projects</p>
-      <a href="#">Visit my Profile</a>
-    </article>
-
-    <article style="margin-top:16px;">
-      <h3>OpenSource Work</h3>
-      <p>
-        Contributed to 50 opensource projects.
-        Made my own projects with 200 GitHub Stars.
-      </p>
-      <a href="#">Visit my GitHub Profile</a>
-    </article>
-  </section>
-
-  <!-- Education -->
-  <section style="width:35%; padding:16px;">
-    <h2>Education</h2>
-
-    <p>
-      Graduated with 3.76 out of 4 CGPA.
-      Won ACM Hackathon.
-      Organized 30 sessions.
-    </p>
-
-    <p><strong>Courses I took:</strong></p>
-
-    <p>- Object Oriented Programming</p>
-    <p>- Data Structures and Algorithms</p>
-    <p>- Web Engineering</p>
-    <p>- Artificial Intelligence</p>
-    <p>- Human Computer Interaction</p>
-    <p>- Computer Graphics</p>
-    <p>- Database Management Systems</p>
-    <p>- Distributed Database Systems</p>
-    <p>- Discrete Mathematics</p>
-  </section>
-
-</main>
+  </footer>
 
 
-    </div>
 </body>
+
 
 </html>
